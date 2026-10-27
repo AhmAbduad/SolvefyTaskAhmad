@@ -1,0 +1,308 @@
+
+<div class="damage-page">
+
+  <!-- Page heading -->
+  <header class="damage-header">
+    <div class="heading-icon">!</div>
+
+    <div class="heading-text">
+      <h1>Damaged Reports</h1>
+      <p>View and track reports of damaged equipment.</p>
+    </div>
+
+    <button
+      type="button"
+      class="report-button"
+      (click)="openReportForm()"
+    >
+      <span class="plus">＋</span>
+      Report Damage
+    </button>
+  </header>
+
+  <!-- Search and filters -->
+  <section class="filter-bar">
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input
+        type="search"
+        name="search"
+        placeholder="Search equipment..."
+        [(ngModel)]="searchText"
+        (ngModelChange)="applyFilters()"
+      />
+    </div>
+
+    <select
+      name="status"
+      class="status-filter"
+      [(ngModel)]="selectedStatus"
+      (ngModelChange)="applyFilters()"
+      aria-label="Filter by status"
+    >
+      <option>All Status</option>
+      <option>Pending</option>
+      <option>Resolved</option>
+    </select>
+
+    <div class="date-range">
+      <span class="calendar-icon">▦</span>
+      <input
+        type="date"
+        aria-label="Start date"
+        title="Start date"
+        [(ngModel)]="startDate"
+        (ngModelChange)="applyFilters()"
+      />
+      <span class="date-separator">–</span>
+      <input
+        type="date"
+        aria-label="End date"
+        title="End date"
+        [(ngModel)]="endDate"
+        (ngModelChange)="applyFilters()"
+      />
+    </div>
+
+    <button
+      type="button"
+      class="filter-button"
+      (click)="applyFilters()"
+    >
+      Filter
+    </button>
+
+    <button
+      type="button"
+      class="reset-button"
+      (click)="resetFilters()"
+    >
+      Reset
+    </button>
+  </section>
+
+  <!-- Reports table -->
+  <section class="table-card">
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Equipment</th>
+            <th>Description</th>
+            <th>Reported By</th>
+            <th>Status</th>
+            <th class="actions-heading">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          @for (report of paginatedReports; track report.id) {
+            <tr>
+              <td class="date-cell">{{ report.date }}</td>
+
+              <td>
+                <div class="equipment-cell">
+                  <div class="equipment-icon" [class]=" 'equipment-icon ' + report.icon">
+
+                    @if (report.icon === 'gps') {
+                      <svg viewBox="0 0 48 48" aria-label="GPS rover">
+                        <ellipse cx="24" cy="10" rx="11" ry="5" fill="#e5a72f"/>
+                        <rect x="14" y="10" width="20" height="8" rx="3" fill="#586a7a"/>
+                        <rect x="19" y="18" width="10" height="15" rx="3" fill="#c4ccd3"/>
+                        <path d="M22 32 L22 43 M26 32 L26 43" stroke="#687887" stroke-width="2"/>
+                        <circle cx="24" cy="12" r="3" fill="#ffda67"/>
+                      </svg>
+                    } @else if (report.icon === 'drone') {
+                      <svg viewBox="0 0 48 48" aria-label="Drone">
+                        <g stroke="#647383" stroke-width="2.5" stroke-linecap="round" fill="none">
+                          <path d="M24 23 L10 13 M24 23 L38 13 M24 23 L10 34 M24 23 L38 34"/>
+                          <ellipse cx="10" cy="11" rx="8" ry="2.5"/>
+                          <ellipse cx="38" cy="11" rx="8" ry="2.5"/>
+                          <ellipse cx="10" cy="36" rx="8" ry="2.5"/>
+                          <ellipse cx="38" cy="36" rx="8" ry="2.5"/>
+                        </g>
+                        <rect x="17" y="18" width="14" height="11" rx="4" fill="#aeb9c5"/>
+                        <circle cx="24" cy="23" r="3" fill="#647383"/>
+                      </svg>
+                    } @else if (report.icon === 'tablet') {
+                      <svg viewBox="0 0 48 48" aria-label="Tablet">
+                        <rect x="9" y="2" width="30" height="44" rx="4" fill="#233c51"/>
+                        <rect x="12" y="6" width="24" height="34" rx="2" fill="#327ca5"/>
+                        <path d="M13 28 L22 17 L28 24 L35 14 L35 39 L13 39 Z" fill="#70b2d0"/>
+                        <circle cx="24" cy="43" r="1" fill="#fff"/>
+                      </svg>
+                    } @else if (report.icon === 'tripod') {
+                      <svg viewBox="0 0 48 48" aria-label="Tripod">
+                        <rect x="19" y="4" width="10" height="6" rx="1" fill="#273c4e"/>
+                        <path d="M21 10 L10 44 M25 10 L25 44 M28 10 L39 44" stroke="#ce7a25" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M18 17 L30 17" stroke="#4c5966" stroke-width="2"/>
+                      </svg>
+                    } @else {
+                      <span>⚒</span>
+                    }
+
+                  </div>
+
+                  <span>{{ report.equipment }}</span>
+                </div>
+              </td>
+
+              <td>{{ report.description }}</td>
+              <td>{{ report.reportedBy }}</td>
+
+              <td>
+                <span
+                  class="status-badge"
+                  [class.pending]="report.status === 'Pending'"
+                  [class.resolved]="report.status === 'Resolved'"
+                >
+                  {{ report.status }}
+                </span>
+              </td>
+
+              <td class="actions-cell">
+                <button
+                  type="button"
+                  class="view-button"
+                  title="View report details"
+                  aria-label="View report details"
+                  (click)="viewReport(report)"
+                >
+                  <svg viewBox="0 0 24 24" width="19" height="19"
+                       fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          } @empty {
+            <tr>
+              <td colspan="6" class="empty-cell">
+                No damage reports match your filters.
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <footer class="table-footer">
+      <span class="results-text">
+        Showing {{ firstVisible }} to {{ lastVisible }}
+        of {{ filteredReports.length }} reports
+      </span>
+
+      <div class="pagination">
+        <button
+          type="button"
+          class="page-arrow"
+          aria-label="Previous page"
+          [disabled]="currentPage === 1"
+          (click)="changePage(currentPage - 1)"
+        >
+          ‹
+        </button>
+
+        @for (page of [].constructor(totalPages); track $index) {
+          <button
+            type="button"
+            class="page-number"
+            [class.active]="currentPage === $index + 1"
+            (click)="changePage($index + 1)"
+          >
+            {{ $index + 1 }}
+          </button>
+        }
+
+        <button
+          type="button"
+          class="page-arrow"
+          aria-label="Next page"
+          [disabled]="currentPage === totalPages"
+          (click)="changePage(currentPage + 1)"
+        >
+          ›
+        </button>
+      </div>
+    </footer>
+  </section>
+
+  <!-- Report damage form -->
+  @if (showReportForm) {
+    <div class="modal-backdrop" (click)="showReportForm = false">
+      <section class="modal-card" (click)="$event.stopPropagation()">
+        <h2>Report Damage</h2>
+        <p>Enter the details of the damaged equipment.</p>
+
+        <form #damageForm="ngForm" (ngSubmit)="saveReport()">
+          <label for="equipmentName">Equipment name *</label>
+          <input
+            id="equipmentName"
+            name="equipmentName"
+            [(ngModel)]="newReport.equipment"
+            required
+            placeholder="e.g. GPS Rover - 01"
+          />
+
+          <label for="damageDescription">Description *</label>
+          <textarea
+            id="damageDescription"
+            name="damageDescription"
+            [(ngModel)]="newReport.description"
+            required
+            rows="3"
+            placeholder="Describe the damage..."
+          ></textarea>
+
+          <label for="reportedBy">Reported by</label>
+          <input
+            id="reportedBy"
+            name="reportedBy"
+            [(ngModel)]="newReport.reportedBy"
+          />
+
+          <div class="modal-actions">
+            <button
+              type="button"
+              class="cancel-button"
+              (click)="showReportForm = false"
+            >
+              Cancel
+            </button>
+
+            <button
+              type="submit"
+              class="report-button"
+              [disabled]="damageForm.invalid"
+            >
+              Submit Report
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  }
+
+  <!-- Report details -->
+  @if (selectedReport; as report) {
+    <div class="modal-backdrop" (click)="closeDetails()">
+      <section class="modal-card details-card" (click)="$event.stopPropagation()">
+        <div class="details-heading">
+          <h2>Damage Report Details</h2>
+          <button type="button" class="close-button" (click)="closeDetails()">×</button>
+        </div>
+
+        <p><strong>Equipment:</strong> {{ report.equipment }}</p>
+        <p><strong>Serial number:</strong> {{ report.serial }}</p>
+        <p><strong>Date:</strong> {{ report.date }}</p>
+        <p><strong>Description:</strong> {{ report.description }}</p>
+        <p><strong>Reported by:</strong> {{ report.reportedBy }}</p>
+        <p><strong>Status:</strong> {{ report.status }}</p>
+      </section>
+    </div>
+  }
+
+</div>

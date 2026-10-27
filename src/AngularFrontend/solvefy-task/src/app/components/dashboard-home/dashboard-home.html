@@ -1,0 +1,113 @@
+
+<div class="dashboard-home">
+
+  <!-- Summary Cards -->
+  <section class="stats-grid">
+    @for (stat of equipmentStats; track stat.title) {
+      <article class="stat-card">
+        <div class="stat-top">
+          <span
+            class="stat-icon"
+            [class]="'stat-icon ' + stat.color"
+          >
+            {{ stat.icon }}
+          </span>
+
+          <span class="stat-title">{{ stat.title }}</span>
+        </div>
+
+        <div class="stat-value">{{ stat.value }}</div>
+        <div class="stat-detail">{{ stat.detail }}</div>
+      </article>
+    }
+  </section>
+
+  <!-- Dashboard Panels -->
+  <section class="dashboard-grid">
+
+    <!-- Equipment Status -->
+    <article class="panel status-panel">
+      <div class="panel-heading">
+        <h2>Equipment Status</h2>
+
+        <button
+          type="button"
+          class="more-button"
+          title="Equipment status"
+        >
+          ⋯
+        </button>
+      </div>
+
+      <div class="status-content">
+        <div class="donut-chart">
+          <div class="donut-center">
+            <strong>25</strong>
+            <span>Total</span>
+          </div>
+        </div>
+
+        <div class="legend">
+          @for (status of equipmentStatus; track status.label) {
+            <div class="legend-row">
+              <span
+                class="legend-dot"
+                [style.background]="status.color"
+              ></span>
+
+              <span class="legend-label">
+                {{ status.label }}
+              </span>
+
+              <span class="legend-value">
+                {{ status.value }}
+              </span>
+            </div>
+          }
+        </div>
+      </div>
+    </article>
+
+    <!-- Recent Activity -->
+    <article class="panel activity-panel">
+      <div class="panel-heading">
+        <h2>Recent Activity</h2>
+
+        <button
+          type="button"
+          class="view-all"
+          (click)="toggleActivities()"
+        >
+          {{ showAllActivities ? 'Show less' : 'View All' }}
+        </button>
+      </div>
+
+      <div class="activity-list">
+        @for (activity of visibleActivities; track activity.title) {
+          <div class="activity-item">
+            <div
+              class="activity-icon"
+              [class.success]="activity.type === 'success'"
+              [class.danger]="activity.type === 'danger'"
+            >
+              {{ activity.icon }}
+            </div>
+
+            <div class="activity-info">
+              <p>{{ activity.title }}</p>
+              <span>{{ activity.time }}</span>
+            </div>
+          </div>
+        }
+      </div>
+    </article>
+
+  </section>
+
+  <!-- Dashboard Footer -->
+  <footer class="dashboard-footer">
+    Horizon Survey Services
+    <span>Equipment Tracking System</span>
+  </footer>
+
+</div>

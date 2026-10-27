@@ -1,0 +1,58 @@
+
+<div class="login-page">
+  <div class="page-heading">1. Login Page</div>
+
+  <div class="login-card">
+    <div class="brand">
+      <div class="brand-logo">
+        <svg viewBox="0 0 52 34" aria-label="Horizon logo">
+          <path d="M4 26 L15 6 L23 20 L31 6 L45 26"
+                fill="none" stroke="#17619a"
+                stroke-width="5" stroke-linejoin="round"
+                stroke-linecap="round"/>
+          <path d="M18 26 L25 15 L32 26"
+                fill="none" stroke="#17619a"
+                stroke-width="4" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <div class="brand-name">
+        <h2>Horizon</h2>
+        <span>Survey Services</span>
+      </div>
+    </div>
+
+    <h3>Equipment Tracking System</h3>
+
+    <form (submit)="login($event)">
+      <label class="input-field">
+        <span class="field-icon">♙</span>
+        <input
+          type="email"
+          placeholder="admin@horizon.com"
+          value="admin@horizon.com"
+          required
+          autocomplete="username"
+        />
+      </label>
+
+      <label class="input-field">
+        <span class="field-icon">♙</span>
+        <input
+          type="password"
+          placeholder="Password"
+          value="password123"
+          required
+          autocomplete="current-password"
+        />
+      </label>
+
+      <label class="remember-row">
+        <input type="checkbox" checked />
+        <span>Remember me</span>
+      </label>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>

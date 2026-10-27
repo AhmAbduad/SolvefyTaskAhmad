@@ -1,0 +1,260 @@
+
+<div class="equipment-page">
+  <div class="page-banner">3. Equipment List</div>
+
+  <main class="page-content">
+    <header class="page-heading">
+      <div>
+        <h1>Equipment</h1>
+        <p>View and manage all equipment</p>
+      </div>
+
+      <button
+          type="button"
+          class="primary-button"
+          (click)="showAddForm = true"
+        >
+          <span>＋</span> Add Equipment
+        </button>
+    </header>
+
+    <section class="toolbar">
+      <label class="search-box">
+        <span class="search-icon">⌕</span>
+        <input
+          type="search"
+          placeholder="Search equipment..."
+          [(ngModel)]="searchText"
+        />
+      </label>
+
+      <select
+        aria-label="Filter by category"
+        [(ngModel)]="selectedCategory"
+      >
+        @for (category of categories; track category) {
+          <option [value]="category">{{ category }}</option>
+        }
+      </select>
+
+      <select
+        aria-label="Filter by status"
+        [(ngModel)]="selectedStatus"
+      >
+        @for (status of statuses; track status) {
+          <option [value]="status">{{ status }}</option>
+        }
+      </select>
+
+      <button class="filter-button" (click)="toggleFilters()">
+        <span>☷</span> Filter
+      </button>
+    </section>
+
+    @if (showFilters) {
+      <section class="filter-panel">
+        <div>
+          <strong>Equipment filters</strong>
+          <p>Filter the list by category and current status.</p>
+        </div>
+        <button class="clear-button" (click)="clearFilters()">
+          Clear filters
+        </button>
+      </section>
+    }
+
+    <section class="table-card">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Name <span class="sort-icon">↕</span></th>
+              <th>Category</th>
+              <th>Serial No.</th>
+              <th>Type</th>
+              <th>Status</th>
+              <th>Assigned To</th>
+              <th class="actions-column">Actions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            @for (item of filteredEquipment; track item.id) {
+              <tr>
+                <td>
+                  <div class="equipment-name">
+                    <span class="equipment-icon">
+                      @switch (item.category) {
+                        @case ('Total Station') { ⊙ }
+                        @case ('GPS') { ◉ }
+                        @case ('Drone') { ✣ }
+                        @case ('Tripod') { ╱ }
+                        @case ('Tablet') { ▣ }
+                        @default { ▦ }
+                      }
+                    </span>
+                    <span>{{ item.name }}</span>
+                  </div>
+                </td>
+
+                <td>{{ item.category }}</td>
+                <td>{{ item.serialNo }}</td>
+                <td>{{ item.type }}</td>
+
+                <td>
+                  <span
+                    class="status-badge"
+                    [class.available]="item.status.startsWith('Available')"
+                    [class.checked-out]="item.status === 'Checked Out'"
+                    [class.approval]="item.status === 'Approval Required'"
+                    [class.repair]="item.status === 'Under Repair'"
+                  >
+                    {{ item.status }}
+                  </span>
+                </td>
+
+                <td>{{ item.assignedTo }}</td>
+
+                <td class="actions-column">
+                  <button
+                    class="action-button"
+                    [attr.aria-label]="'Actions for ' + item.name"
+                    (click)="toggleActions(item.id)"
+                  >
+                    ⋯
+                  </button>
+
+                  @if (selectedEquipment === item.id) {
+                    <div class="action-menu">
+                      <button (click)="toggleActions(item.id)">
+                        View Details
+                      </button>
+                      <button (click)="toggleActions(item.id)">
+                        Edit Equipment
+                      </button>
+                    </div>
+                  }
+                </td>
+              </tr>
+            } @empty {
+              <tr>
+                <td colspan="7" class="empty-state">
+                  <span class="empty-icon">⌕</span>
+                  <strong>No equipment found</strong>
+                  <p>Try changing your search or filters.</p>
+                  <button class="clear-button" (click)="clearFilters()">
+                    Clear filters
+                  </button>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+
+      <footer class="table-footer">
+        <span>
+          Showing {{ filteredEquipment.length }} of {{ equipment.length }} items
+        </span>
+        <span class="records-label">Equipment records</span>
+      </footer>
+    </section>
+  </main>
+</div>
+
+@if (showAddForm) {
+  <div class="modal-backdrop" (click)="showAddForm = false">
+    <section
+      class="equipment-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="add-equipment-title"
+      (click)="$event.stopPropagation()"
+    >
+      <header class="modal-heading">
+        <div>
+          <h2 id="add-equipment-title">Add Equipment</h2>
+          <p>Enter the details of the new equipment.</p>
+        </div>
+        <button
+          type="button"
+          class="close-button"
+          aria-label="Close"
+          (click)="showAddForm = false"
+        >×</button>
+      </header>
+
+      
+        <form
+          #equipmentForm="ngForm"
+          (ngSubmit)="addEquipment(
+            newName.value,
+            newCategory.value,
+            newSerial.value,
+            newType.value
+          )"
+        >
+          <label class="form-field">
+            Equipment Name *
+            <input
+              #newName
+              name="equipmentName"
+              required
+              placeholder="e.g. Total Station - 02"
+            />
+          </label>
+
+          <label class="form-field">
+            Category *
+            <select #newCategory name="category" required>
+              <option value="">Select category</option>
+              @for (category of categories.slice(1); track category) {
+                <option [value]="category">{{ category }}</option>
+              }
+            </select>
+          </label>
+
+          <label class="form-field">
+            Serial Number
+            <input
+              #newSerial
+              name="serialNumber"
+              placeholder="e.g. TS-002"
+            />
+          </label>
+
+          <label class="form-field">
+            Equipment Type *
+            <select #newType name="type" required>
+              <option value="">Select type</option>
+              <option value="Individual">Individual</option>
+              <option value="Bulk">Bulk</option>
+            </select>
+          </label>
+
+          @if (errorMessage) {
+            <p class="error-message">{{ errorMessage }}</p>
+          }
+
+          <div class="modal-actions">
+            <button
+              type="button"
+              class="cancel-button"
+              (click)="showAddForm = false"
+            >
+              Cancel
+            </button>
+
+            <button
+              type="submit"
+              class="primary-button"
+              [disabled]="!equipmentForm.valid || saving"
+            >
+              {{ saving ? 'Saving...' : 'Save Equipment' }}
+            </button>
+          </div>
+        </form>
+
+    </section>
+  </div>
+}

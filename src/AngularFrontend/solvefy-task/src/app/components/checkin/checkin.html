@@ -1,0 +1,238 @@
+
+<div class="checkin-page">
+  <section class="checkin-card">
+
+    <!-- Header -->
+    <header class="checkin-header">
+      <div class="header-icon">
+        <span>↓</span>
+      </div>
+
+      <div>
+        <h1>Check In Equipment</h1>
+        <p>
+          Record the return of equipment to the office and mark it
+          as available again.
+        </p>
+      </div>
+    </header>
+
+    @if (errorMessage) {
+      <div class="error" role="alert">
+        {{ errorMessage }}
+      </div>
+    }
+
+    @if (successMessage) {
+      <div class="success-message" role="status">
+        {{ successMessage }}
+      </div>
+    }
+
+    @if (loadingEquipment) {
+      <p>Loading equipment from database...</p>
+    }
+
+    <form
+      #checkInForm="ngForm"
+      (ngSubmit)="checkIn()"
+    >
+      <div class="checkin-body">
+
+        <!-- Equipment -->
+        <div class="form-field equipment-field">
+          <label for="equipment">
+            Equipment <span class="required">*</span>
+          </label>
+
+          <div class="equipment-select">
+            <div class="equipment-thumbnail">📡</div>
+
+            <div class="equipment-info">
+              <strong>
+                {{ selectedItem?.name || 'Select equipment' }}
+              </strong>
+
+              <span>
+                Serial No: {{ selectedItem?.serial || 'N/A' }}
+                &nbsp; | &nbsp;
+                Type: {{ selectedItem?.type || 'N/A' }}
+              </span>
+
+              @if (loadingDetails) {
+                <small>Loading equipment details...</small>
+              }
+            </div>
+
+            <select
+              id="equipment"
+              name="equipment"
+              [(ngModel)]="selectedEquipment"
+              (ngModelChange)="onEquipmentChange()"
+              required
+              aria-label="Select returned equipment"
+              [disabled]="loadingEquipment || saving || equipmentOptions.length === 0"
+            >
+              <option [ngValue]="null" disabled>
+                Select equipment
+              </option>
+
+              @for (item of equipmentOptions; track item.id) {
+                <option [ngValue]="item.id">
+                  {{ item.name }}
+                </option>
+              }
+            </select>
+
+            <span class="select-chevron">⌄</span>
+          </div>
+
+          @if (submitted && selectedEquipment === null) {
+            <small class="error">
+              Please select equipment.
+            </small>
+          }
+        </div>
+
+        <!-- Return Date and Time -->
+        <div class="date-time-grid">
+
+          <div class="form-field">
+            <label for="returnDate">
+              Return Date <span class="required">*</span>
+            </label>
+
+            <input
+              id="returnDate"
+              name="returnDate"
+              type="date"
+              [(ngModel)]="returnDate"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="returnTime">
+              Return Time <span class="required">*</span>
+            </label>
+
+            <input
+              id="returnTime"
+              name="returnTime"
+              type="time"
+              [(ngModel)]="returnTime"
+              required
+            />
+          </div>
+
+        </div>
+
+        <!-- Condition -->
+        <fieldset class="condition-field">
+          <legend>
+            Condition on Return <span class="required">*</span>
+          </legend>
+
+          <div class="condition-grid">
+
+            <label
+              class="condition-option good"
+              [class.selected]="condition === 'Good'"
+            >
+              <input
+                type="radio"
+                name="condition"
+                value="Good"
+                [(ngModel)]="condition"
+                required
+              />
+
+              <span class="radio-visual"></span>
+
+              <span class="condition-copy">
+                <strong>Good</strong>
+                <span>No issues</span>
+              </span>
+            </label>
+
+            <label
+              class="condition-option minor"
+              [class.selected]="condition === 'Fair'"
+            >
+              <input
+                type="radio"
+                name="condition"
+                value="Fair"
+                [(ngModel)]="condition"
+                required
+              />
+
+              <span class="radio-visual"></span>
+
+              <span class="condition-copy">
+                <strong>Minor Issue</strong>
+                <span>Small scratches, wear etc.</span>
+              </span>
+            </label>
+
+            <label
+              class="condition-option damaged"
+              [class.selected]="condition === 'Damaged'"
+            >
+              <input
+                type="radio"
+                name="condition"
+                value="Damaged"
+                [(ngModel)]="condition"
+                required
+              />
+
+              <span class="radio-visual"></span>
+
+              <span class="condition-copy">
+                <strong>Damaged</strong>
+                <span>Not working or needs repair</span>
+              </span>
+            </label>
+
+          </div>
+        </fieldset>
+
+        <!-- Notes -->
+        <div class="form-field notes-field">
+          <label for="notes">Notes (Optional)</label>
+
+          <textarea
+            id="notes"
+            name="notes"
+            [(ngModel)]="notes"
+            rows="3"
+            placeholder="Add any notes about the returned equipment..."
+          ></textarea>
+        </div>
+
+      </div>
+
+      <!-- Actions -->
+      <footer class="checkin-actions">
+        <button
+          type="button"
+          class="cancel-button"
+          (click)="cancel()"
+        >
+          Cancel
+        </button>
+
+        <button
+          type="submit"
+          class="checkin-button"
+          [disabled]="saving || loadingEquipment || loadingDetails"
+        >
+          <span>↓</span>
+          {{ saving ? 'Saving...' : 'Check In' }}
+        </button>
+      </footer>
+
+    </form>
+  </section>
+</div>

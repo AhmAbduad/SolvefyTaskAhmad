@@ -1,0 +1,6 @@
+@SolvefyTask_HostAddress = http://localhost:5232
+
+GET {{SolvefyTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

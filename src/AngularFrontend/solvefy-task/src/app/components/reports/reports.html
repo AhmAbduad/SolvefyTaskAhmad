@@ -1,0 +1,136 @@
+
+<div class="history-page">
+
+  <!-- Page banner -->
+  <div class="page-banner">
+    7. Reports / History
+  </div>
+
+  <section class="history-card">
+
+    <!-- Heading -->
+    <header class="history-header">
+      <div>
+        <h1>Equipment History</h1>
+        <p>View past check-outs, returns and activity</p>
+      </div>
+    </header>
+
+    <!-- Date filters -->
+    <form class="filter-bar" (ngSubmit)="applyFilter()">
+
+      <div class="date-control">
+        <label for="startDate" class="visually-hidden">
+          Start date
+        </label>
+
+        <input
+          id="startDate"
+          type="date"
+          name="startDate"
+          [(ngModel)]="startDate"
+        />
+      </div>
+
+      <span class="date-separator">to</span>
+
+      <div class="date-control">
+        <label for="endDate" class="visually-hidden">
+          End date
+        </label>
+
+        <input
+          id="endDate"
+          type="date"
+          name="endDate"
+          [(ngModel)]="endDate"
+        />
+      </div>
+
+      <button type="submit" class="filter-button">
+        Filter
+      </button>
+
+      <button
+        type="button"
+        class="reset-button"
+        (click)="resetFilter()"
+      >
+        Reset
+      </button>
+
+    </form>
+    @if (loading) {
+      <p class="loading-message">Loading equipment history...</p>
+    }
+
+    @if (errorMessage) {
+      <p class="error-message">{{ errorMessage }}</p>
+    }
+    <!-- History table -->
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Equipment</th>
+            <th>Action</th>
+            <th>Person</th>
+            <th>Remarks</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          @for (record of filteredHistory; track record.id) {
+            <tr>
+              <td class="date-cell">{{ record.date }}</td>
+
+              <td class="equipment-cell">
+                {{ record.equipment }}
+              </td>
+
+              <td>
+                <span
+                  class="action-badge"
+                  [class.returned]="record.action === 'Returned'"
+                  [class.checked-out]="record.action === 'Checked Out'"
+                >
+                  {{ record.action }}
+                </span>
+              </td>
+
+              <td>{{ record.person }}</td>
+
+              <td class="remarks-cell">
+                {{ record.remarks || '—' }}
+              </td>
+            </tr>
+          } @empty {
+            <tr>
+              <td colspan="5" class="empty-state">
+                No equipment history found for the selected dates.
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <footer class="history-footer">
+      <span>
+        Showing {{ filteredHistory.length }}
+        of {{ history.length }} records
+      </span>
+
+      <button
+        type="button"
+        class="reset-link"
+        (click)="resetFilter()"
+      >
+        Clear filters
+      </button>
+    </footer>
+
+  </section>
+</div>

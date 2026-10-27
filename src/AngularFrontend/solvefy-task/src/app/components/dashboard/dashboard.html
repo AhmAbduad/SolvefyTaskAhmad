@@ -1,0 +1,87 @@
+
+<div class="dashboard-shell">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">H</div>
+      <span>Horizon</span>
+    </div>
+
+    <nav class="navigation">
+      @for (item of menuItems; track item.label) {
+        <button
+          type="button"
+          class="nav-item"
+          [class.active]="selectedMenu === item.label"
+          (click)="selectMenu(item.label)"
+        >
+          <span class="nav-icon">{{ item.icon }}</span>
+          <span>{{ item.label }}</span>
+
+          @if (item.label === 'Approvals') {
+            <span class="nav-badge">3</span>
+          }
+        </button>
+      }
+    </nav>
+
+    <div class="sidebar-footer">
+      <span class="status-dot"></span>
+      Equipment Tracking System
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Header -->
+    <header class="topbar">
+      <div class="mobile-brand">
+        <div class="brand-mark">H</div>
+        <span>Horizon</span>
+      </div>
+
+      <div class="topbar-spacer"></div>
+
+      <button
+        class="notification-button"
+        type="button"
+        aria-label="Notifications"
+        title="Notifications"
+      >
+        ♧
+        <span class="notification-dot"></span>
+      </button>
+
+      <div class="profile-container">
+        <button
+          type="button"
+          class="profile-button"
+          (click)="toggleProfile()"
+        >
+          <span class="avatar">AA</span>
+          <span>Ahmad</span>
+          <span class="chevron">⌄</span>
+        </button>
+
+        @if (showProfileMenu) {
+          <div class="profile-menu">
+            <div class="profile-menu-name">Ahmad</div>
+
+            <button
+              type="button"
+              (click)="toggleProfile()"
+            >
+              Close menu
+            </button>
+          </div>
+        }
+      </div>
+    </header>
+
+    <!-- Active page appears here -->
+    <router-outlet></router-outlet>
+
+  </main>
+</div>

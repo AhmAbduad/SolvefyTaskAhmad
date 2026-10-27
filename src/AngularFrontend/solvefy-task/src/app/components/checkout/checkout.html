@@ -1,0 +1,162 @@
+
+<div class="checkout-page">
+  <div class="page-banner">4. Check Out Equipment</div>
+
+  <main class="checkout-content">
+    <div class="page-title">
+      <button
+        type="button"
+        class="back-button"
+        aria-label="Go back"
+        (click)="goBack()"
+      >
+        ←
+      </button>
+
+      <h1>Check Out Equipment</h1>
+    </div>
+
+    @if (errorMessage) {
+      <div class="error-message" role="alert">
+        {{ errorMessage }}
+      </div>
+    }
+
+    @if (successMessage) {
+      <div class="success-message" role="status">
+        {{ successMessage }}
+      </div>
+    }
+
+    @if (loadingEquipment) {
+      <p>Loading equipment...</p>
+    }
+
+    <form
+      #checkoutForm="ngForm"
+      class="checkout-form"
+      (ngSubmit)="requestCheckOut()"
+    >
+      <div class="form-grid">
+
+        <!-- Select Equipment -->
+        <div class="form-field">
+          <label for="equipment">
+            Select Equipment <span class="required">*</span>
+          </label>
+
+          <select
+            id="equipment"
+            name="equipment"
+            [(ngModel)]="selectedEquipment"
+            (ngModelChange)="onEquipmentChange()"
+            required
+            #equipmentModel="ngModel"
+            [class.invalid]="submitted && equipmentModel.invalid"
+            [disabled]="loadingEquipment || equipmentOptions.length === 0"
+          >
+            <option [ngValue]="null" disabled>
+              Select equipment
+            </option>
+
+            @for (item of equipmentOptions; track item.id) {
+              <option [ngValue]="item.id">
+                {{ item.name }}
+              </option>
+            }
+          </select>
+
+          @if (submitted && equipmentModel.invalid) {
+            <small class="error-message">
+              Please select equipment.
+            </small>
+          }
+        </div>
+
+        <!-- Assign To -->
+        <div class="form-field">
+          <label for="assignedTo">
+            Assign To <span class="required">*</span>
+          </label>
+
+          <input
+            id="assignedTo"
+            name="assignedTo"
+            type="text"
+            [(ngModel)]="assignedTo"
+            required
+            readonly
+            placeholder="Assignee will load automatically"
+            #assignedModel="ngModel"
+            [class.invalid]="submitted && assignedModel.invalid"
+          />
+
+          @if (loadingAssignee) {
+            <small>Loading assignee...</small>
+          }
+
+          @if (submitted && assignedModel.invalid) {
+            <small class="error-message">
+              No assignee is available for this equipment.
+            </small>
+          }
+        </div>
+
+        <!-- Expected Return Date -->
+        <div class="form-field">
+          <label for="returnDate">
+            Expected Return Date <span class="required">*</span>
+          </label>
+
+          <input
+            id="returnDate"
+            name="returnDate"
+            type="date"
+            [(ngModel)]="expectedReturnDate"
+            [min]="minReturnDate"
+            required
+            #dateModel="ngModel"
+            [class.invalid]="submitted && dateModel.invalid"
+          />
+
+          @if (submitted && dateModel.invalid) {
+            <small class="error-message">
+              Please select a valid return date.
+            </small>
+          }
+        </div>
+
+        <!-- Purpose / Project -->
+        <div class="form-field full-width">
+          <label for="purpose">Purpose / Project</label>
+
+          <textarea
+            id="purpose"
+            name="purpose"
+            [(ngModel)]="purpose"
+            rows="3"
+            placeholder="Site survey - DHA Phase 6"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button
+          type="button"
+          class="cancel-button"
+          (click)="cancel()"
+        >
+          Cancel
+        </button>
+
+        <button
+          type="submit"
+          class="submit-button"
+          [disabled]="saving || loadingEquipment || loadingAssignee"
+        >
+          {{ saving ? 'Submitting...' : 'Request Check Out' }}
+        </button>
+      </div>
+    </form>
+  </main>
+</div>

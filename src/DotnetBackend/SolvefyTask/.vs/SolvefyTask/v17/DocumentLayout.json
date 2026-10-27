@@ -1,0 +1,1061 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\migrations\\20261025134413_createteammembertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\migrations\\20261025134413_createteammembertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\teammemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\teammemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\teammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\teammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\iteammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\iteammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\teammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\teammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\iteammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\iteammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\teammemberresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\teammemberresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\updateteammemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\updateteammemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\createteammemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\createteammemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\damagereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\damagereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\idamagereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\idamagereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\damagereportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\damagereportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\approvalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\approvalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\approvalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\approvalrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\iapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\iapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\approvalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\myequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\myequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\myequipmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\myequipmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\migrations\\20261024161825_addcheckouttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\migrations\\20261024161825_addcheckouttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\imyequipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\imyequipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\imyequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\imyequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\myequipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\myequipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\equipmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\equipmenthistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\equipmenthistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\equipmenthistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\iequipmenthistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\iequipmenthistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\equipmenthistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\equipmenthistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\iequipmenthistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\iequipmenthistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\equipmenthistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\equipmenthistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\equipmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\equipmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\damagereportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\damagereportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\idamagereportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\idamagereportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\damagereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\damagereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\damagereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\damagereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\myequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\myequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\approvalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\approvalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\myequipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\myequipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\checkoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\checkoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\equipmentoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\equipmentoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\icheckoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\icheckoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\iapprovalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\iapprovalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\dtos\\approvaldtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\dtos\\approvaldtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\checkincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\checkincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\checkinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\checkinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\icheckinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\icheckinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\checkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\checkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\icheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\icheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\migrations\\20261024110734_addedequipmenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\migrations\\20261024110734_addedequipmenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\equipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\equipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\equipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\repositories\\iequipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\repositories\\iequipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\services\\iequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\services\\iequipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\migrations\\20261025115759_createequipmenthistorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\migrations\\20261025115759_createequipmenthistorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\migrations\\20261025103547_createdamagereportstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\migrations\\20261025103547_createdamagereportstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|c:\\users\\ahmad abdullah\\desktop\\bmadsolvefy\\src\\dotnetbackend\\solvefytask\\solvefytask\\migrations\\20261025094529_addmyequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05F98EF7-73B0-4586-94EF-68B192E91E65}|SolvefyTask\\SolvefyTask.csproj|solutionrelative:solvefytask\\migrations\\20261025094529_addmyequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20261025134413_CreateTeamMembertable.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025134413_CreateTeamMembertable.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Migrations\\20261025134413_CreateTeamMembertable.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025134413_CreateTeamMembertable.cs",
+              "RelativeToolTip": "SolvefyTask\\Migrations\\20261025134413_CreateTeamMembertable.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:44:13.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamMembersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\TeamMembersController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\TeamMembersController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\TeamMembersController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\TeamMembersController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAuwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:28:56.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeamMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\TeamMemberService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\TeamMemberService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\TeamMemberService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\TeamMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:28:14.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITeamMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ITeamMemberService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\ITeamMemberService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ITeamMemberService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\ITeamMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:27:43.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\TeamMemberRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\TeamMemberRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\TeamMemberRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\TeamMemberRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:27:05.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITeamMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ITeamMemberRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\ITeamMemberRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ITeamMemberRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\ITeamMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:26:28.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeamMemberResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\TeamMemberResponseDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\TeamMemberResponseDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\TeamMemberResponseDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\TeamMemberResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:21:48.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateTeamMemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\UpdateTeamMemberDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\UpdateTeamMemberDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\UpdateTeamMemberDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\UpdateTeamMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:21:20.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateTeamMemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\CreateTeamMemberDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\CreateTeamMemberDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\CreateTeamMemberDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\CreateTeamMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:19:37.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeamMember.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\TeamMember.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\TeamMember.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\TeamMember.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\TeamMember.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T13:18:58.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20261025115759_CreateEquipmentHistoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025115759_CreateEquipmentHistoryTable.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Migrations\\20261025115759_CreateEquipmentHistoryTable.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025115759_CreateEquipmentHistoryTable.cs",
+              "RelativeToolTip": "SolvefyTask\\Migrations\\20261025115759_CreateEquipmentHistoryTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:57:59.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EquipmentHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\EquipmentHistoryController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\EquipmentHistoryController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\EquipmentHistoryController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\EquipmentHistoryController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:56:18.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EquipmentHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\EquipmentHistoryService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\EquipmentHistoryService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\EquipmentHistoryService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\EquipmentHistoryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:55:23.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEquipmentHistoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IEquipmentHistoryService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\IEquipmentHistoryService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IEquipmentHistoryService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\IEquipmentHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:54:37.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EquipmentHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\EquipmentHistoryRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\EquipmentHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\EquipmentHistoryRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\EquipmentHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:53:45.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IEquipmentHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IEquipmentHistoryRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\IEquipmentHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IEquipmentHistoryRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\IEquipmentHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:53:11.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EquipmentHistoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\EquipmentHistoryDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\EquipmentHistoryDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\EquipmentHistoryDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\EquipmentHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:23:20.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EquipmentHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\EquipmentHistory.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\EquipmentHistory.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\EquipmentHistory.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\EquipmentHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:22:53.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20261025103547_CreateDamageReportsTable.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025103547_CreateDamageReportsTable.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Migrations\\20261025103547_CreateDamageReportsTable.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025103547_CreateDamageReportsTable.cs",
+              "RelativeToolTip": "SolvefyTask\\Migrations\\20261025103547_CreateDamageReportsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:35:48.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DamageReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\DamageReportsController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\DamageReportsController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\DamageReportsController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\DamageReportsController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:34:40.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DamageReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\DamageReportService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\DamageReportService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\DamageReportService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\DamageReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:33:41.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDamageReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IDamageReportService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\IDamageReportService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IDamageReportService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\IDamageReportService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:33:11.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DamageReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\DamageReportRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\DamageReportRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\DamageReportRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\DamageReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:31:50.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDamageReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IDamageReportRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\IDamageReportRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IDamageReportRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\IDamageReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:31:23.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DamageReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\DamageReportDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\DamageReportDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\DamageReportDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\DamageReportDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:27:32.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DamageReport.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\DamageReport.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\DamageReport.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\DamageReport.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\DamageReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:26:53.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MyEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\MyEquipment.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\MyEquipment.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\MyEquipment.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\MyEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:05:23.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20261025094529_AddMyEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025094529_AddMyEquipment.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Migrations\\20261025094529_AddMyEquipment.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261025094529_AddMyEquipment.cs",
+              "RelativeToolTip": "SolvefyTask\\Migrations\\20261025094529_AddMyEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:45:29.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MyEquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\MyEquipmentController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\MyEquipmentController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\MyEquipmentController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\MyEquipmentController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:22:29.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyEquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\MyEquipmentService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\MyEquipmentService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\MyEquipmentService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\MyEquipmentService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAtwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:21:38.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IMyEquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IMyEquipmentService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\IMyEquipmentService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IMyEquipmentService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\IMyEquipmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:21:02.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MyEquipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\MyEquipmentRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\MyEquipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\MyEquipmentRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\MyEquipmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:58.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IMyEquipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IMyEquipmentRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\IMyEquipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IMyEquipmentRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\IMyEquipmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:20.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MyEquipmentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\MyEquipmentResponseDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\MyEquipmentResponseDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\MyEquipmentResponseDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\MyEquipmentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:16:09.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApprovalsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\ApprovalsController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\ApprovalsController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\ApprovalsController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\ApprovalsController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAA6wF0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:44:45.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApprovalService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ApprovalService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\ApprovalService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ApprovalService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\ApprovalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:42:47.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IApprovalService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IApprovalService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\IApprovalService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IApprovalService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\IApprovalService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:42:10.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ApprovalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ApprovalRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\ApprovalRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ApprovalRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\ApprovalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:40:06.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IApprovalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IApprovalRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\IApprovalRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IApprovalRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\IApprovalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:38:11.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ApprovalDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\ApprovalDtos.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\ApprovalDtos.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\ApprovalDtos.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\ApprovalDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:33:25.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApprovalRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\ApprovalRequest.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\ApprovalRequest.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\ApprovalRequest.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\ApprovalRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:32:40.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CheckInController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\CheckInController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\CheckInController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\CheckInController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\CheckInController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:05:45.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CheckInService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\CheckInService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\CheckInService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\CheckInService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\CheckInService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:04:41.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICheckInService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ICheckInService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\ICheckInService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ICheckInService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\ICheckInService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:04:14.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CheckInRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\CheckInRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\CheckInRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\CheckInRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\CheckInRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:02:27.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ICheckInRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ICheckInRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\ICheckInRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ICheckInRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\ICheckInRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:01:48.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CheckIn.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\CheckIn.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\CheckIn.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\CheckIn.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\CheckIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T06:59:53.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EquipmentOptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\EquipmentOptionDto.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\DTOs\\EquipmentOptionDto.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\DTOs\\EquipmentOptionDto.cs",
+              "RelativeToolTip": "SolvefyTask\\DTOs\\EquipmentOptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:40:34.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20261024161825_AddCheckoutTable.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261024161825_AddCheckoutTable.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Migrations\\20261024161825_AddCheckoutTable.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261024161825_AddCheckoutTable.cs",
+              "RelativeToolTip": "SolvefyTask\\Migrations\\20261024161825_AddCheckoutTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:18:26.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:16:30.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\CheckoutService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\CheckoutService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\CheckoutService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\CheckoutService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:15:36.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ICheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ICheckoutService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\ICheckoutService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\ICheckoutService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\ICheckoutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:15:07.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CheckoutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\CheckoutRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\CheckoutRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\CheckoutRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\CheckoutRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA6wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:14:29.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ICheckoutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ICheckoutRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\ICheckoutRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\ICheckoutRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\ICheckoutRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:13:45.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\Checkout.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\Checkout.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\Checkout.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\Checkout.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:06:59.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20261024110734_AddedEquipmentTable.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261024110734_AddedEquipmentTable.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Migrations\\20261024110734_AddedEquipmentTable.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Migrations\\20261024110734_AddedEquipmentTable.cs",
+              "RelativeToolTip": "SolvefyTask\\Migrations\\20261024110734_AddedEquipmentTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T11:07:34.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\appsettings.json",
+              "RelativeDocumentMoniker": "SolvefyTask\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\appsettings.json",
+              "RelativeToolTip": "SolvefyTask\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-24T10:59:54.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Program.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Program.cs",
+              "RelativeToolTip": "SolvefyTask\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:58:49.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\EquipmentService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\EquipmentService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\EquipmentService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\EquipmentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:57:00.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IEquipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IEquipmentService.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Services\\IEquipmentService.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Services\\IEquipmentService.cs",
+              "RelativeToolTip": "SolvefyTask\\Services\\IEquipmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:55:48.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EquipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\EquipmentRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\EquipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\EquipmentRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\EquipmentRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:54:58.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IEquipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IEquipmentRepository.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Repositories\\IEquipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Repositories\\IEquipmentRepository.cs",
+              "RelativeToolTip": "SolvefyTask\\Repositories\\IEquipmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:54:26.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SolvefyTask\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:50:22.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Models\\Equipment.cs",
+              "RelativeToolTip": "SolvefyTask\\Models\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:49:01.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "SolvefyTask\\Controllers\\EquipmentController.cs",
+              "ToolTip": "C:\\Users\\Ahmad Abdullah\\Desktop\\BMADSolvefy\\src\\DotnetBackend\\SolvefyTask\\SolvefyTask\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "SolvefyTask\\Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T10:40:47.246Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

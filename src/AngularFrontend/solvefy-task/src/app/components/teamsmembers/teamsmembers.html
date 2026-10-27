@@ -1,0 +1,296 @@
+<div class="team-page">
+  <div class="team-card">
+
+    <!-- Header -->
+    <header class="page-header">
+      <div class="header-left">
+        <div class="header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="10" cy="7" r="4"/>
+            <path d="M20 8v6M23 11h-6"/>
+            <path d="M16 21v-2a4 4 0 0 0-3-3.87"/>
+          </svg>
+        </div>
+
+        <div>
+          <h1>Team Members</h1>
+          <p>Manage team members and their roles.</p>
+        </div>
+      </div>
+
+      <button class="btn-primary" type="button" (click)="openAddForm()">
+        <span class="plus-icon">+</span>
+        Add Member
+      </button>
+    </header>
+
+    <!-- Search and Filter -->
+    <div class="toolbar">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"/>
+          <path d="m20 20-4-4"/>
+        </svg>
+
+        <input
+          type="text"
+          placeholder="Search team members..."
+          [(ngModel)]="searchText"
+          (ngModelChange)="onFilterChange()"
+        />
+      </div>
+
+      <select
+        class="role-filter"
+        [(ngModel)]="selectedRole"
+        (ngModelChange)="onFilterChange()"
+      >
+        <option *ngFor="let role of roles" [value]="role">
+          {{ role }}
+        </option>
+      </select>
+    </div>
+
+    <!-- Table -->
+    <div class="table-wrapper">
+      <table class="members-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Status</th>
+            <th class="actions-heading">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let member of paginatedMembers; trackBy: trackById">
+            <td>
+              <div class="member-info">
+                <div
+                  class="avatar"
+                  [ngClass]="'avatar-' + ((member.id - 1) % 7)"
+                >
+                  {{ getInitials(member.name) }}
+                </div>
+
+                <span class="member-name">{{ member.name }}</span>
+              </div>
+            </td>
+
+            <td>
+              <span
+                class="role-badge"
+                [ngClass]="{
+                  'role-field': member.role === 'Field Staff',
+                  'role-office': member.role === 'Office Staff',
+                  'role-admin': member.role === 'Admin'
+                }"
+              >
+                {{ member.role }}
+              </span>
+            </td>
+
+            <td class="phone-cell">{{ member.phone }}</td>
+            <td class="email-cell">{{ member.email }}</td>
+
+            <td>
+              <span
+                class="status-badge"
+                [ngClass]="{
+                  'status-active': member.status === 'Active',
+                  'status-inactive': member.status === 'Inactive'
+                }"
+              >
+                {{ member.status }}
+              </span>
+            </td>
+
+            <td>
+              <div class="action-buttons">
+                <button
+                  class="icon-button edit-button"
+                  type="button"
+                  title="Edit member"
+                  aria-label="Edit member"
+                  (click)="editMember(member)"
+                >
+                  <svg viewBox="0 0 24 24" fill="none"
+                       stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 20h9"/>
+                    <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L9 17l-4 1 1-4Z"/>
+                  </svg>
+                </button>
+
+                <button
+                  class="icon-button delete-button"
+                  type="button"
+                  title="Delete member"
+                  aria-label="Delete member"
+                  (click)="deleteMember(member)"
+                >
+                  <svg viewBox="0 0 24 24" fill="none"
+                       stroke="currentColor" stroke-width="2"
+                       stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 6h18"/>
+                    <path d="M8 6V4h8v2"/>
+                    <path d="m19 6-1 14H6L5 6"/>
+                    <path d="M10 11v5M14 11v5"/>
+                  </svg>
+                </button>
+              </div>
+            </td>
+          </tr>
+
+          <tr *ngIf="filteredMembers.length === 0">
+            <td colspan="6" class="empty-state">
+              No team members found.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <footer class="pagination-footer">
+      <div class="pagination-summary">
+        Showing {{ firstVisible }} - {{ lastVisible }} of
+        {{ filteredMembers.length }}
+      </div>
+
+      <div class="pagination-controls">
+        <button
+          type="button"
+          class="page-arrow"
+          aria-label="Previous page"
+          [disabled]="currentPage === 1"
+          (click)="changePage(currentPage - 1)"
+        >
+          ‹
+        </button>
+
+        <button
+          type="button"
+          class="page-number"
+          aria-current="page"
+        >
+          {{ currentPage }}
+        </button>
+
+        <button
+          type="button"
+          class="page-arrow"
+          aria-label="Next page"
+          [disabled]="currentPage === totalPages"
+          (click)="changePage(currentPage + 1)"
+        >
+          ›
+        </button>
+      </div>
+    </footer>
+  </div>
+</div>
+
+<!-- Add/Edit Member Modal -->
+<div class="modal-overlay" *ngIf="showForm" (click)="cancelForm()">
+  <div
+    class="member-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="modal-header">
+      <h2 id="modal-title">
+        {{ isEditing ? 'Edit Member' : 'Add Member' }}
+      </h2>
+
+      <button
+        type="button"
+        class="modal-close"
+        aria-label="Close"
+        (click)="cancelForm()"
+      >
+        ×
+      </button>
+    </div>
+
+    <form (ngSubmit)="saveMember()" #memberNgForm="ngForm">
+      <label for="memberName">Name</label>
+      <input
+        id="memberName"
+        name="name"
+        [(ngModel)]="memberForm.name"
+        required
+        placeholder="Enter full name"
+      />
+
+      <label for="memberRole">Role</label>
+      <select
+        id="memberRole"
+        name="role"
+        [(ngModel)]="memberForm.role"
+        required
+      >
+        <option value="Field Staff">Field Staff</option>
+        <option value="Office Staff">Office Staff</option>
+        <option value="Admin">Admin</option>
+      </select>
+
+      <label for="memberPhone">Phone</label>
+      <input
+        id="memberPhone"
+        name="phone"
+        [(ngModel)]="memberForm.phone"
+        required
+        placeholder="03XX-XXXXXXX"
+      />
+
+      <label for="memberEmail">Email</label>
+      <input
+        id="memberEmail"
+        name="email"
+        type="email"
+        [(ngModel)]="memberForm.email"
+        required
+        email
+        placeholder="name@horizon.com"
+      />
+
+      <label for="memberStatus">Status</label>
+      <select
+        id="memberStatus"
+        name="status"
+        [(ngModel)]="memberForm.status"
+      >
+        <option value="Active">Active</option>
+        <option value="Inactive">Inactive</option>
+      </select>
+
+      <div class="modal-actions">
+        <button
+          type="button"
+          class="btn-secondary"
+          (click)="cancelForm()"
+        >
+          Cancel
+        </button>
+
+        <button
+          type="submit"
+          class="btn-primary"
+          [disabled]="memberNgForm.invalid"
+        >
+          {{ isEditing ? 'Save Changes' : 'Add Member' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

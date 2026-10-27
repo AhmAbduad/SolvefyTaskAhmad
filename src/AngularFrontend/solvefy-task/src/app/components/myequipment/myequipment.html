@@ -1,0 +1,130 @@
+
+<div class="my-equipment-page">
+
+  <div class="page-banner">
+    6. My Equipment
+  </div>
+
+  <main class="page-content">
+
+    <header class="page-heading">
+      <div>
+        <h1>My Equipment</h1>
+        <p>Equipment currently assigned to you</p>
+      </div>
+    </header>
+
+      @if (loading) {
+        <div class="loading-message">Loading your equipment...</div>
+      }
+
+      @if (errorMessage) {
+        <div class="error-message">{{ errorMessage }}</div>
+      }
+
+      @if (successMessage) {
+        <div class="success-message">{{ successMessage }}</div>
+      }
+
+    <section class="equipment-list">
+
+      @for (item of equipment; track item.id) {
+        <article class="equipment-card">
+
+          <!-- Equipment image/icon -->
+          <div class="equipment-image" [class]=" 'equipment-image ' + item.icon">
+
+            @if (item.icon === 'gps') {
+              <svg viewBox="0 0 64 80" role="img" aria-label="GPS rover">
+                <ellipse cx="32" cy="14" rx="18" ry="10" fill="#e0a52c"/>
+                <rect x="17" y="12" width="30" height="13" rx="4" fill="#687786"/>
+                <rect x="23" y="23" width="18" height="26" rx="4" fill="#d9dfe5"/>
+                <rect x="28" y="45" width="8" height="23" rx="2" fill="#667786"/>
+                <path d="M20 30 L12 39 M44 30 L52 39" stroke="#697887" stroke-width="3"/>
+                <circle cx="32" cy="17" r="5" fill="#f8d35c"/>
+              </svg>
+            } @else {
+              <svg viewBox="0 0 64 80" role="img" aria-label="Field tablet">
+                <rect x="7" y="3" width="50" height="72" rx="6" fill="#253d52"/>
+                <rect x="11" y="9" width="42" height="58" rx="3" fill="#397ca0"/>
+                <path d="M13 45 L27 27 L37 39 L46 22 L52 31 L52 65 L13 65 Z"
+                  fill="#70a8c0"/>
+                <circle cx="32" cy="70" r="2" fill="#c7d2dc"/>
+                <circle cx="32" cy="6" r="1" fill="#bfcbd7"/>
+              </svg>
+            }
+
+          </div>
+
+          <!-- Equipment details -->
+          <div class="equipment-details">
+
+            <div class="equipment-title-row">
+              <h2>{{ item.name }}</h2>
+
+              @if (item.status === 'Overdue') {
+                <span class="status-badge overdue">Overdue</span>
+              } @else if (item.status === 'Returned') {
+                <span class="status-badge returned">Returned</span>
+              }
+            </div>
+
+            <div class="equipment-meta">
+              <span>Checked Out:</span>
+              <strong>{{ item.checkedOutDate }}</strong>
+            </div>
+
+            <div class="equipment-meta">
+              <span>Expected Return:</span>
+              <strong>{{ item.expectedReturnDate }}</strong>
+            </div>
+
+            <div class="equipment-meta">
+              <span>Status:</span>
+              <strong
+                class="status-text"
+                [class.overdue-text]="item.status === 'Overdue'"
+                [class.returned-text]="item.status === 'Returned'"
+              >
+                {{ item.status === 'Returned' ? 'Returned' : 'Checked Out' }}
+              </strong>
+            </div>
+
+          </div>
+
+          <!-- Return action -->
+          <div class="equipment-actions">
+            
+            <button
+              type="button"
+              class="return-button"
+              [disabled]="item.status === 'Returned' || returningId === item.id"
+              (click)="returnEquipment(item)"
+            >
+              @if (returningId === item.id) {
+                Returning...
+              } @else {
+                {{ item.status === 'Returned' ? 'Returned' : 'Return' }}
+              }
+            </button>
+
+          </div>
+
+        </article>
+      } @empty {
+        <div class="empty-state">
+          <span class="empty-icon">✓</span>
+          <h2>No equipment assigned</h2>
+          <p>You currently have no equipment checked out.</p>
+        </div>
+      }
+
+    </section>
+
+    <footer class="page-footer">
+      <span>{{ equipment.length }} equipment record(s)</span>
+      <span>Equipment Tracking System</span>
+    </footer>
+
+  </main>
+</div>
